@@ -1,0 +1,24 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	创建一个版本库的元数据，.git文件；
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	暂存区是一个抽象的概念，他将一个提交需要的所有内容整合在一起，可以节省提交的次数。工作目录是存储器上的一个特定文件夹，里面包含工作相关的所有内容，但并不是所有内容都会添加到版本库中。
+	版本库包含了所有提交的内容，并且保存了所有提交的快照信息。
+	暂存区方便了提交内容的整合，并且可以事实更改，在满足最终要求时再进行提交。
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git鈥檚 automatic merging vs. always doing merges
+manually?
