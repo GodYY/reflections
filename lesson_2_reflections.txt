@@ -12,10 +12,16 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	通过比较暂存区在公共做目录基础上所作的更改，锁定出针对逻辑提交用到的更改，然后gitadd 这些更改，然后提交。如有必要还有比较暂存区与最近一次提交的不同，查看提交内容是否均属于一个逻辑提交
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	有一个稳定的版本，此时想引入一些实验性的功能，单不确定这种功能最终能否实现以及是否正确，此时可以创建一个分支，在分支上进行实验，从而并不影响稳定版本的发展。
+
 How do the diagrams help you visualize the branch structure?
+
+	通过图表可以从分支最近的提交依次向上追溯，知道于主分支相交，就能清除的明白分支是在什么情况下建立，并添加了哪些功能
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
