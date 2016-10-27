@@ -26,5 +26,11 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	将其中一个分支中所作的更改合并到另一个分支中，并作为该分支的最新提交。
+	因为新的提交有两个不同的父级。
+
 What are the pros and cons of Git鈥檚 automatic merging vs. always doing merges
 manually?
+
+	自动合并可以在git清除如何取舍的情况下快速得到合并结果，但是合并的结果不受控制；
+	手动合并可以给自己提供再次思考的机会，选择最合适的代码，比如解决冲突的时候。
